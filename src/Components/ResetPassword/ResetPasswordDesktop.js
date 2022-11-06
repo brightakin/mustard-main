@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import AppBar from "../AppBar";
-import backgroundLady from "../../Assets/backgroundLady.png";
 import classes from "./ResetPassword.module.css";
 import icon from "../../Assets/icon.png";
 
@@ -16,6 +15,7 @@ const ResetPasswordDesktop = () => {
           <img
             className="absolute w-[92px] h-[84px] top-[72px] left-[713px] "
             src={icon}
+            alt=""
           />
           <h1 className="absolute top-[95px] left-[35px] h-[40px] w-[386px] text-[40px] font-bold text-[#000000] leading-[40px] text-center ">
             Reset Password!

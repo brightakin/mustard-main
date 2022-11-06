@@ -34,13 +34,13 @@ const SignInMobile = () => {
       <p className="absolute top-[586px] left-[80px] h-[8px] w-[245px] text-[16px] font-normal leading-[24px] text-[#a6a6aa] text-center  ">
         Forgot your password?
         <span className="text-[#28a745]">
-          <a href="#">Reset here</a>
+          <a href="/">Reset here</a>
         </span>
       </p>
       <p className="absolute top-[746px] left-[80px] h-[8px] w-[245px] text-[16px] font-normal leading-[24px] text-[#a6a6aa] text-center  ">
         Don’t have an account?
         <span className="text-[#28a745]">
-          <a href="#"> Sign Up</a>
+          <a href="/"> Sign Up</a>
         </span>
       </p>
     </Fragment>

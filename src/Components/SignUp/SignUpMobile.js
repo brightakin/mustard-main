@@ -88,7 +88,7 @@ const SignUpMobile = () => {
         <p className="absolute top-[638px] left-[114px] h-[8px] w-[203px] text-[16px] font-normal leading-[24px] text-[#a6a6aa] text-center  ">
           Have an account?{" "}
           <span className="text-[#28a745]">
-            <a href="#">Sign in</a>
+            <a href="/">Sign in</a>
           </span>
         </p>
       </main>

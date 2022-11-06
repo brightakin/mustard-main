@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import AppBar from "../AppBar";
-import backgroundLady from "../../Assets/backgroundLady.png";
 import classes from "./SignUp.module.css";
 import icon from "../../Assets/icon.png";
 import { useHistory } from "react-router-dom";
@@ -23,6 +22,7 @@ const SignUpDesktop = () => {
           <img
             className="absolute w-[92px] h-[84px] top-[72px] left-[713px] "
             src={icon}
+            alt=""
           />
           <h1 className="absolute top-[95px] left-[25px] h-[40px] w-[486px] text-[40px] font-bold text-[#000000] leading-[40px] text-center ">
             Welcome to Mustard!
@@ -103,7 +103,7 @@ const SignUpDesktop = () => {
           <p className="absolute top-[932px] left-[306px] h-[10px] w-[271px] text-[24px] font-normal leading-[24px] text-[#a6a6aa] text-center  ">
             Have an account?{" "}
             <span className="text-[#28a745]">
-              <a href="#">Sign in</a>
+              <a href="/">Sign in</a>
             </span>
           </p>
         </main>
