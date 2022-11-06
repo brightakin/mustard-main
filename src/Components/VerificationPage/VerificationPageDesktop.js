@@ -1,6 +1,5 @@
 import { Component, Fragment } from "react";
 import AppBar from "../AppBar";
-import backgroundLady from "../../Assets/backgroundLady.png";
 import classes from "./VerificationPage.module.css";
 import icon from "../../Assets/icon.png";
 import OtpInput from "react18-otp-input";
@@ -22,6 +21,7 @@ export default class VerificationPageDesktop extends Component {
             <img
               className="absolute w-[92px] h-[84px] top-[61px] left-[713px] "
               src={icon}
+              alt="2"
             />
             <p className="absolute top-[95px] left-[89px] h-[40px] w-[464px] text-[40px] font-bold leading-[40px] text-left ">
               Verify Email Address

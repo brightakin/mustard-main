@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import AppBar from "../AppBar";
-import backgroundLady from "../../Assets/backgroundLady.png";
 import classes from "./SignIn.module.css";
 import icon from "../../Assets/icon.png";
 
@@ -16,6 +15,7 @@ const SignInDesktop = () => {
           <img
             className="absolute w-[92px] h-[84px] top-[72px] left-[713px] "
             src={icon}
+            alt="2"
           />
           <h1 className="absolute top-[95px] left-[25px] h-[40px] w-[486px] text-[40px] font-bold text-[#000000] leading-[40px] text-center ">
             Welcome to Mustard!
@@ -57,7 +57,7 @@ const SignInDesktop = () => {
           <p className="absolute top-[626px] left-[273px] h-[24px] w-[338px] text-[22px] font-normal leading-[24px] text-[#a6a6aa] text-center  ">
             Forgotten Password?{" "}
             <span className="text-[#28a745]">
-              <a href="#">Reset here</a>
+              <a href="/">Reset here</a>
             </span>
           </p>
           <p className="absolute top-[698px] left-[273px] h-[24px] w-[338px] text-[22px] font-normal leading-[24px] text-[#3a3a3a] text-center  ">

@@ -39,7 +39,7 @@ export default class VerificationPageMobile extends Component {
         <p className="absolute top-[669px] left-[80px] h-[8px] w-[245px] text-[16px] font-normal leading-[24px] text-[#a6a6aa] text-center  ">
           {`Didn’t receiveive OTP?`}
           <span className="text-[#28a745]">
-            <a href="#">Resend</a>
+            <a href="/">Resend</a>
           </span>
         </p>
       </Fragment>

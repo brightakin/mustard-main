@@ -8,6 +8,7 @@ const AppBarDesktop = () => {
         <img
           className="absolute top-[54px] left-[62px] h-[40px] w-[231px] "
           src={logo}
+          alt="2"
         />
       </div>
       <ul>

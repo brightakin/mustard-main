@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import AppBar from "../AppBar";
-import backgroundLady from "../../Assets/backgroundLady.png";
 import classes from "./ConfirmedVerification.module.css";
 import rocketBody from "../../Assets/rocketBody.png";
 import rocketCone from "../../Assets/rocketCone.png";
@@ -26,42 +25,52 @@ const ConfirmedVerificationDesktop = () => {
             <img
               className="absolute top-[204px] z-10 left-[189px] h-[29px] w-[37px] "
               src={rocketCone}
+              alt="2"
             />
             <img
               className="absolute top-[204px] left-[176px] h-[117px] w-[64px] "
               src={rocketBody}
+              alt="2"
             />
             <img
               className="absolute top-[327px] left-[200px] h-[29px] w-[16px] "
               src={rocketFire}
+              alt="2"
             />
             <img
               className="absolute top-[305px] left-[185px] h-[21px] w-[45px] "
               src={rocketBottom}
+              alt="2"
             />
             <img
               className="absolute top-[296px] left-[174px] h-[45px] w-[17px]  "
               src={leftSharp}
+              alt="2"
             />
             <img
               className="absolute top-[281px] left-[170px] h-[30px] w-[17px]  "
               src={leftBlunt}
+              alt="2"
             />
             <img
               className="absolute top-[296px] left-[225px] h-[45px] w-[17px]"
               src={rightSharp}
+              alt="2"
             />
             <img
               className="absolute top-[281px] left-[228px] h-[30px] w-[17px]  "
               src={rightBlunt}
+              alt="2"
             />
             <img
               className="absolute top-[260px] left-[188px] h-[22px] w-[16px] "
               src={rocketCircle}
+              alt="2"
             />
             <img
               className="absolute top-[326px] left-[171px] h-[51px] w-[100px] "
               src={bottomCircle}
+              alt="2"
             />
           </div>
           <p className="absolute top-[242px] left-[300px] h-[40px] w-[600px] text-[40px] font-bold leading-[40px] text-left ">
