@@ -3,7 +3,7 @@ import AppBar from "../AppBar";
 import backgroundLady from "../../Assets/backgroundLady.png";
 import classes from "./VerificationPage.module.css";
 import icon from "../../Assets/icon.png";
-import OtpInput from "react-otp-input";
+import OtpInput from "react18-otp-input";
 
 export default class VerificationPageDesktop extends Component {
   state = { otp: "" };

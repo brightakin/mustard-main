@@ -5,6 +5,7 @@
 @layer base {
   html {
     font-family: Lato;
+    overflow-x: hidden;
   }
   input::placeholder {
     padding-left: 20px;

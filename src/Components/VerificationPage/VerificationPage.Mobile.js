@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import OtpInput from "react-otp-input";
+import OtpInput from "react18-otp-input";
 
 export default class VerificationPageMobile extends Component {
   state = { otp: "" };

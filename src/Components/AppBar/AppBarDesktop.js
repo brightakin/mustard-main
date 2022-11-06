@@ -3,7 +3,7 @@ import logo from "../../Assets/logo.png";
 
 const AppBarDesktop = () => {
   return (
-    <div className="h-[148px] w-full bg-[#28a745] ">
+    <div className="h-[148px] w-[2700px] bg-[#28a745] ">
       <div>
         <img
           className="absolute top-[54px] left-[62px] h-[40px] w-[231px] "
