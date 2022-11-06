@@ -19,7 +19,7 @@ const ConfirmedVerificationDesktop = () => {
         <div className="container">
           <div className="layer"></div>
         </div>{" "}
-        <main className="absolute top-[97px] left-[1440px] w-[887px] h-[500px] bg-[#ffffff] rounded-[30px] ">
+        <main className="absolute top-[97px] left-[400px] w-[887px] h-[500px] bg-[#ffffff] rounded-[30px] ">
           <div>
             <img
               className="absolute top-[204px] z-10 left-[189px] h-[29px] w-[37px] "

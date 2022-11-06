@@ -16,7 +16,7 @@ export default class VerificationPageDesktop extends Component {
           <div className="container">
             <div className="layer"></div>
           </div>{" "}
-          <main className="absolute top-[97px] left-[1440px] w-[884px] h-[612px] bg-[rgb(255,255,255)] rounded-[30px] ">
+          <main className="absolute top-[97px] left-[400px] w-[884px] h-[612px] bg-[rgb(255,255,255)] rounded-[30px] ">
             <img
               className="absolute w-[92px] h-[84px] top-[61px] left-[713px] "
               src={icon}
