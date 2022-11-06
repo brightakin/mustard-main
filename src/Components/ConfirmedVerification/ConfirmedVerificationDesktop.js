@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import AppBar from "../AppBar";
-import classes from "./ConfirmedVerification.module.css";
 import rocketBody from "../../Assets/rocketBody.png";
 import rocketCone from "../../Assets/rocketCone.png";
 import rocketFire from "../../Assets/rocketFire.png";
@@ -17,8 +16,8 @@ const ConfirmedVerificationDesktop = () => {
     <Fragment>
       <AppBar />
       <div className="relative">
-        <div className={classes.container}>
-          <div className={classes.layer}></div>
+        <div className="container">
+          <div className="layer"></div>
         </div>{" "}
         <main className="absolute top-[97px] left-[1440px] w-[887px] h-[500px] bg-[#ffffff] rounded-[30px] ">
           <div>

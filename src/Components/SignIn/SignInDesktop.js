@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import AppBar from "../AppBar";
-import classes from "./SignIn.module.css";
 import icon from "../../Assets/icon.png";
 
 const SignInDesktop = () => {
@@ -8,8 +7,8 @@ const SignInDesktop = () => {
     <Fragment>
       <AppBar />
       <div className="relative">
-        <div className={classes.container}>
-          <div className={classes.layer}></div>
+        <div className="container">
+          <div className="layer"></div>
         </div>{" "}
         <main className="absolute top-[97px] left-[1440px] w-[887px] h-[912px] bg-[#ffffff] rounded-[30px] ">
           <img

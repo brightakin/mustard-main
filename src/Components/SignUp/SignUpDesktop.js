@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import AppBar from "../AppBar";
-import classes from "./SignUp.module.css";
 import icon from "../../Assets/icon.png";
 import { useHistory } from "react-router-dom";
 
@@ -15,8 +14,8 @@ const SignUpDesktop = () => {
     <Fragment>
       <AppBar />
       <div className="relative">
-        <div className={classes.container}>
-          <div className={classes.layer}></div>
+        <div className="container">
+          <div className="layer"></div>
         </div>{" "}
         <main className="absolute top-[97px] left-[1440px] w-[887px] h-[1054px] bg-[#ffffff] rounded-[30px] ">
           <img

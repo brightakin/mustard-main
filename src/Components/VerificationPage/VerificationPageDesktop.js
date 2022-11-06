@@ -1,6 +1,5 @@
 import { Component, Fragment } from "react";
 import AppBar from "../AppBar";
-import classes from "./VerificationPage.module.css";
 import icon from "../../Assets/icon.png";
 import OtpInput from "react18-otp-input";
 
@@ -14,8 +13,8 @@ export default class VerificationPageDesktop extends Component {
       <Fragment>
         <AppBar />
         <div className="relative">
-          <div className={classes.container}>
-            <div className={classes.layer}></div>
+          <div className="container">
+            <div className="layer"></div>
           </div>{" "}
           <main className="absolute top-[97px] left-[1440px] w-[884px] h-[612px] bg-[rgb(255,255,255)] rounded-[30px] ">
             <img

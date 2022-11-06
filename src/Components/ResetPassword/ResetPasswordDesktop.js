@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import AppBar from "../AppBar";
-import classes from "./ResetPassword.module.css";
 import icon from "../../Assets/icon.png";
 
 const ResetPasswordDesktop = () => {
@@ -8,8 +7,8 @@ const ResetPasswordDesktop = () => {
     <Fragment>
       <AppBar />
       <div className="relative">
-        <div className={classes.container}>
-          <div className={classes.layer}></div>
+        <div className="container">
+          <div className="layer"></div>
         </div>{" "}
         <main className="absolute top-[97px] left-[1440px] w-[884px] h-[612px] bg-[#ffffff] rounded-[30px] ">
           <img
