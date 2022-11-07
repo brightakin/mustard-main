@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import SignUpPage from "./Components/SignUp";
 import { Switch, Route } from "react-router-dom";
 import VerificationPage from "./Components/VerificationPage";
@@ -8,6 +9,10 @@ import ResetPasswordPage from "./Components/ResetPassword";
 import AppBar from "./Components/AppBar";
 
 function App() {
+  useEffect(() => {
+    document.body.style.zoom = "90%";
+  }, []);
+
   return (
     <Fragment>
       <Switch>

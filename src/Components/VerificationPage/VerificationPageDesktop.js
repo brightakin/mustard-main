@@ -41,7 +41,7 @@ export default class VerificationPageDesktop extends Component {
                 width: "83px",
                 height: "83px",
               }}
-              className=" my-[250px] ml-[50px] otp-input pd-[20px] align-middle bg-white mx-2 h-[83px] w-[83px] text-[26px] focus:outline-none focus:shadow-outline border border-[#28a745] rounded-lg flex appearance-none leading-normal"
+              className=" my-[250px] ml-[50px] otp-input pd-[20px] align-middle bg-white mx-2 h-[83px] w-[83px] sm:w-[200px] text-[26px] focus:outline-none focus:shadow-outline border border-[#28a745] rounded-lg flex appearance-none leading-normal"
             />
             <button className="absolute top-[380px] left-[84px] h-[80px] w-[717px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] text-[28px] bg-[#28a745] text-[#ffffff] ">
               Confirm Email
