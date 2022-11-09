@@ -26,7 +26,7 @@ const HomePageMobile = () => {
     <Fragment>
       <AppBar />
       <div className="flex flex-col ">
-        <div className="flex flex-col justify-between w-[91rem] h-[210rem] bg-[#28a745] px-12 pb-[12.25rem] ">
+        <div className="flex flex-col justify-between w-[100rem] h-[210rem] bg-[#28a745] px-12 pb-[12.25rem] ">
           <div className="flex flex-col pt-[8rem] ">
             <h1 className="text-[#ffffff] mt-[20rem] h-32 w-full text-9xl text-center font-extrabold">
               Take Control of your money with Mustard!
@@ -212,7 +212,7 @@ const HomePageMobile = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-[91rem] h-[110rem] bg-[#28a745] px-12 pt-[10rem] pb-[12.25rem] ">
+        <div className="flex flex-col w-[100rem] h-[110rem] bg-[#28a745] px-12 pt-[10rem] pb-[12.25rem] ">
           <div>
             <img
               className="absolute top-[550rem] h-[50rem] w-[50rem] mx-[20rem]  "
@@ -264,7 +264,7 @@ const HomePageMobile = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-[91rem] h-[28rem] bg-[#f8f7fa] ">
+        <div className="flex flex-col w-[100rem] h-[28rem] bg-[#f8f7fa] ">
           <p className="h-[7rem] w-[40rem] text-8xl text-[#28a745] m-auto font-extrabold text-center ">
             Our Partners
           </p>
@@ -276,7 +276,7 @@ const HomePageMobile = () => {
             <img className="h-[10rem] w-[12rem] " src={visaImg} alt="" />
           </div>
         </div>
-        <div className="flex flex-col w-[91rem] h-[120rem] ">
+        <div className="flex flex-col w-[100rem] h-[120rem] ">
           <div className="flex h-[60rem] w-[80rem] rounded-3xl bg-[#28A74533] mx-auto mt-[10rem] ">
             <div>
               <p className="h-[10rem] w-[40rem] text-7xl font-bold text-center text-[#28A745] ml-[20rem] mt-[6rem] ">
