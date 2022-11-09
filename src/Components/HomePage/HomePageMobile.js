@@ -94,7 +94,7 @@ const HomePageMobile = () => {
           </div>
           <div className="flex justify-center ">
             <img
-              className="absolute left-[16rem] top-[130rem]  h-[342px] w-full mt-[12rem] "
+              className="absolute left-[22rem] top-[130rem]  h-[342px] w-full mt-[12rem] "
               src={cardImg}
               alt="cards"
             />
@@ -234,7 +234,7 @@ const HomePageMobile = () => {
             <p className="h-[10rem] w-[85rem] text-[#28a745] text-6xl font-extrabold text-center ">
               For every Mustard User, We provide you an Accountability Manager
             </p>
-            <div className=" flex h-[26rem] ml-11 w-[80rem] p-3 text-[#3a3a3a] bg-white shadow-2xl ">
+            <div className=" flex h-[26rem] ml-[8rem] w-[80rem] p-3 text-[#3a3a3a] bg-white shadow-2xl ">
               <div className="flex">
                 <img
                   className="absolute h-[11rem] w-[11rem] "
@@ -242,7 +242,7 @@ const HomePageMobile = () => {
                   alt="ladyleft"
                 />
                 <img
-                  className="absolute left-[8rem] h-[11rem] w-[11rem] src={ladyrightImg}"
+                  className="absolute left-[15rem] h-[11rem] w-[11rem] src={ladyrightImg}"
                   src={ladyrightImg}
                   alt="ladyright"
                 />
@@ -277,7 +277,7 @@ const HomePageMobile = () => {
           </div>
         </div>
         <div className="flex flex-col w-[91rem] h-[120rem] ">
-          <div className="flex h-[60rem] w-[80rem] rounded-3xl bg-[#28A74533] mx-auto mt-[10rem] ">
+          <div className="flex h-[60rem] w-[80rem] rounded-3xl bg-[#28A74533] mx-[10rem] mt-[10rem] ">
             <div>
               <p className="h-[10rem] w-[40rem] text-7xl font-bold text-center text-[#28A745] ml-[20rem] mt-[6rem] ">
                 Take Control of your money with Mustard!
