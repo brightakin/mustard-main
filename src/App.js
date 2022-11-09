@@ -11,7 +11,7 @@ import HomePage from "./Components/HomePage";
 
 function App() {
   useEffect(() => {
-    document.body.style.zoom = "90%";
+    document.body.style.zoom = "100%";
     document.title = "mustard";
   }, []);
 
