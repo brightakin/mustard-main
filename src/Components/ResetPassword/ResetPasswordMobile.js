@@ -22,7 +22,7 @@ const ResetPasswordMobile = () => {
           placeholder="Email Address"
         />
       </div>
-      <button className="absolute top-[401px] left-[24px] h-[48px] w-[380px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] bg-[#28a745] text-[#ffffff] ">
+      <button className="absolute top-[401px] left-[24px] h-[48px] w-[380px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] bg-[#28a745] text-[#ffffff] hover:scale-105 duration-500 ">
         Confirm Email
       </button>
     </Fragment>

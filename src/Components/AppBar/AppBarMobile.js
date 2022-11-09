@@ -1,10 +1,14 @@
-import logo from "../../Assets/logo.png";
+import logoMobileImg from "../../Assets/logomobile.png";
+import hamburgerIconImg from "../../Assets/hamburgericon.png";
 
 const AppBarMobile = () => {
   return (
-    <div className="h-[148px] w-[1440px] ">
+    <div className="flex justify-between p-16 h-[10rem] w-[91rem] bg-[#28a745] ">
       <div>
-        <img className="bg-black" src={logo} alt="" />
+        <img className=" h-[70px] w-[350px] " src={logoMobileImg} alt="2" />
+      </div>
+      <div>
+        <img className="h-[5rem] w-[5rem] " src={hamburgerIconImg} alt="2" />
       </div>
     </div>
   );

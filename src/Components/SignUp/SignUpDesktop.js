@@ -31,7 +31,7 @@ const SignUpDesktop = () => {
           </p>
           <div>
             <input
-              className="absolute top-[216px] left-[80px] w-[334px] h-[72px] text-[16px] pd-[20px] font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
+              className="absolute top-[216px] left-[80px] w-[334px] h-[72px] text-[16px] pl-3 font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
               type={"text"}
               id="firstName"
               name="firstName"
@@ -40,7 +40,7 @@ const SignUpDesktop = () => {
           </div>
           <div>
             <input
-              className="absolute top-[216px] left-[469px] w-[334px] h-[72px] text-[16px] pd-[20px] font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
+              className="absolute top-[216px] left-[469px] w-[334px] h-[72px] text-[16px] pl-3 font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
               type={"text"}
               id="Surname"
               name="Surname"
@@ -49,7 +49,7 @@ const SignUpDesktop = () => {
           </div>
           <div>
             <input
-              className="absolute top-[323px] left-[73px] w-[717px] h-[73px] text-[16px] pd-[20px] font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
+              className="absolute top-[323px] left-[73px] w-[717px] h-[73px] text-[16px] pl-3 font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
               type={"email"}
               id="email"
               name="email"
@@ -58,7 +58,7 @@ const SignUpDesktop = () => {
           </div>
           <div>
             <input
-              className="absolute top-[431px] left-[80px] w-[717px] h-[73px] text-[16px] pd-[20px] font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
+              className="absolute top-[431px] left-[80px] w-[717px] h-[73px] text-[16px] pl-3 font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
               type={"number"}
               id="phone"
               name="phone"
@@ -67,7 +67,7 @@ const SignUpDesktop = () => {
           </div>
           <div>
             <input
-              className="absolute top-[539px] left-[80px] w-[717px] h-[73px] text-[16px] pd-[20px] font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
+              className="absolute top-[539px] left-[80px] w-[717px] h-[73px] text-[16px] pl-3 font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
               type={"password"}
               id="password"
               name="password"
@@ -76,7 +76,7 @@ const SignUpDesktop = () => {
           </div>
           <div>
             <input
-              className="absolute top-[647px] left-[80px] w-[717px] h-[73px] text-[16px] pd-[20px] font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
+              className="absolute top-[647px] left-[80px] w-[717px] h-[73px] text-[16px] pl-3 font-normal leading-[24px] text-left border border-[#a6a6aa] rounded-[15px] "
               type={"text"}
               id="text"
               name="text"
@@ -95,7 +95,7 @@ const SignUpDesktop = () => {
           </div>
           <button
             onClick={signUpHandler}
-            className="absolute top-[816px] left-[80px] h-[80px] w-[717px] rounded-[10px] text-[28px] bg-[#28a745] text-[#ffffff] "
+            className="absolute top-[816px] left-[80px] h-[80px] w-[717px] rounded-[10px] text-[28px] bg-[#28a745] text-[#ffffff] hover:scale-105 duration-500 "
           >
             Sign Up
           </button>

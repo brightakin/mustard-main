@@ -33,13 +33,13 @@ export default class VerificationPageMobile extends Component {
           }}
           className="m-[341px] otp-input bg-white mx-2 text-lg focus:outline-none focus:shadow-outline border border-[#28a745] rounded-lg  block w-[40px] h-[40px] appearance-none leading-normal"
         />
-        <button className="absolute top-[519px] left-[24px] h-[48px] w-[350px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] bg-[#28a745] text-[#ffffff] ">
+        <button className="absolute top-[519px] left-[24px] h-[48px] w-[350px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] bg-[#28a745] text-[#ffffff] hover:scale-105 duration-500 ">
           Verify OTP
         </button>
         <p className="absolute top-[669px] left-[80px] h-[8px] w-[245px] text-[16px] font-normal leading-[24px] text-[#a6a6aa] text-center  ">
           {`Didn’t receiveive OTP?`}
           <span className="text-[#28a745]">
-            <a href="/">Resend</a>
+            <a href="/cl">Resend</a>
           </span>
         </p>
       </Fragment>

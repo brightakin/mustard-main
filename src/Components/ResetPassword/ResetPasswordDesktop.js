@@ -32,7 +32,7 @@ const ResetPasswordDesktop = () => {
               placeholder="Email Address"
             />
           </div>
-          <button className="absolute top-[370px] left-[80px] h-[80px] w-[717px] rounded-[10px] text-[28px] bg-[#28a745] text-[#ffffff] ">
+          <button className="absolute top-[370px] left-[80px] h-[80px] w-[717px] rounded-[10px] text-[28px] bg-[#28a745] text-[#ffffff] hover:scale-105 duration-500 ">
             Confirm Email
           </button>
         </main>

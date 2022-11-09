@@ -81,7 +81,7 @@ const SignUpMobile = () => {
         </div>
         <button
           onClick={signUpHandler}
-          className="absolute top-[565px] left-[24px] sm:left-[200px]  h-[48px] w-[380px] sm:w-[585px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] bg-[#28a745] text-[#ffffff] "
+          className="absolute top-[565px] left-[24px] sm:left-[200px]  h-[48px] w-[380px] sm:w-[585px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] bg-[#28a745] text-[#ffffff] hover:scale-105 duration-500 "
         >
           Sign Up
         </button>

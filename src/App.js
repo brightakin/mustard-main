@@ -7,16 +7,21 @@ import ConfirmedVerificationPage from "./Components/ConfirmedVerification";
 import SignInPage from "./Components/SignIn";
 import ResetPasswordPage from "./Components/ResetPassword";
 import AppBar from "./Components/AppBar";
+import HomePage from "./Components/HomePage";
 
 function App() {
   useEffect(() => {
     document.body.style.zoom = "90%";
+    document.title = "mustard";
   }, []);
 
   return (
     <Fragment>
       <Switch>
         <Route path="/" exact>
+          <HomePage />
+        </Route>
+        <Route path="/signup">
           <SignUpPage />
         </Route>
         <Route path="/verification">

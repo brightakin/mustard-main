@@ -75,7 +75,7 @@ const ConfirmedVerificationDesktop = () => {
           <p className="absolute top-[242px] left-[300px] h-[40px] w-[600px] text-[40px] font-bold leading-[40px] text-left ">
             Email Verification Successful
           </p>
-          <button className="absolute top-[350px] left-[350px] h-[80px] w-[313px] rounded-[10px] bg-[#28a745] text-[28px] font-bold leading-[32px] text-center text-[#ffffff] ">
+          <button className="absolute top-[350px] left-[350px] h-[80px] w-[313px] rounded-[10px] bg-[#28a745] text-[28px] font-bold leading-[32px] text-center text-[#ffffff] hover:scale-105 duration-500 ">
             Confirm
           </button>
         </main>

@@ -28,7 +28,7 @@ const SignInMobile = () => {
           placeholder="Password"
         />
       </div>
-      <button className="absolute top-[518px] left-[24px] h-[48px] w-[350px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] bg-[#28a745] text-[#ffffff] ">
+      <button className="absolute top-[518px] left-[24px] h-[48px] w-[350px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] bg-[#28a745] text-[#ffffff] hover:scale-105 duration-500">
         Sign In
       </button>
       <p className="absolute top-[586px] left-[80px] h-[8px] w-[245px] text-[16px] font-normal leading-[24px] text-[#a6a6aa] text-center  ">

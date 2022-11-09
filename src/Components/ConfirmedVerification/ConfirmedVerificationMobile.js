@@ -71,7 +71,7 @@ const ConfirmedVerificationMobile = () => {
         <p className="absolute top-[465px] left-[64px] h-[40px] w-[288px] text-[#a6a6aa] text-[16px] font-extrabold leading-[20px] text-center ">
           Your account has been successfully verified.
         </p>
-        <button className="absolute top-[537px] left-[24px] h-[48px] w-[380px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] bg-[#28a745] text-[#ffffff] ">
+        <button className="absolute top-[537px] left-[24px] h-[48px] w-[380px] rounded-tr-[5px] rounded-tl-[5px] rounded-br-[5px] bg-[#28a745] text-[#ffffff] hover:scale-105 duration-500 ">
           Let’s get Started
         </button>
       </main>

@@ -50,7 +50,7 @@ const SignInDesktop = () => {
               Remember me
             </label>
           </div>
-          <button className="absolute top-[514px] left-[80px] h-[80px] w-[717px] rounded-[10px] text-[28px] bg-[#28a745] text-[#ffffff] ">
+          <button className="absolute top-[514px] left-[80px] h-[80px] w-[717px] rounded-[10px] text-[28px] bg-[#28a745] text-[#ffffff] hover:scale-105 duration-500 ">
             Sign Up!
           </button>
           <p className="absolute top-[626px] left-[273px] h-[24px] w-[338px] text-[22px] font-normal leading-[24px] text-[#a6a6aa] text-center  ">
