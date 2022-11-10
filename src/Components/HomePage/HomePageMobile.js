@@ -27,7 +27,7 @@ const HomePageMobile = () => {
       <AppBar />
       <div className="flex flex-col pr-0 items-center">
         <div className="flex flex-col justify-between w-full h-[85rem] bg-[#28a745] px-4 pb-[12.25rem] ">
-          <div className="flex mx-auto flex-col pt-[6rem] ">
+          <div className="flex flex-col pt-[6rem] ">
             <h1 className="text-[#ffffff] h-32 w-full text-5xl text-center font-extrabold">
               Take Control of your money with Mustard!
             </h1>
@@ -93,12 +93,12 @@ const HomePageMobile = () => {
             </div>
             <div className=" flex flex-col mx-auto">
               <img
-                className="absolute mx-auto left-[4rem] top-[36rem]  h-[12rem] w-[16rem] mt-[12rem] "
+                className="absolute mx-auto left-[2rem] top-[36rem]  h-[12rem] w-[16rem] mt-[12rem] "
                 src={cardImg}
                 alt="cards"
               />
               <img
-                className=" absolute left-[10rem] top-[46rem] h-[14rem] w-52 pt-0 "
+                className=" absolute left-[8rem] top-[46rem] h-[14rem] w-52 pt-0 "
                 src={phoneImg}
                 alt="phone"
               />
@@ -227,7 +227,7 @@ const HomePageMobile = () => {
         </div>
         <div className="flex flex-col w-full h-[64rem] bg-white pt-[3rem] pb-[12.25rem] ">
           <div>
-            <p className="text-[#28a745] mx-auto px-4 h-28 w-96 text-3xl font-extrabold text-center ">
+            <p className="text-[#28a745] mx-auto h-28 w-80 text-3xl font-extrabold text-center ">
               For every Mustard User, We provide you an Accountability Manager
             </p>
             <div className="px-7 pt-11">
