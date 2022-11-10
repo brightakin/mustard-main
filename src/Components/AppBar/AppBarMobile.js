@@ -3,12 +3,16 @@ import hamburgerIconImg from "../../Assets/hamburgericon.png";
 
 const AppBarMobile = () => {
   return (
-    <div className="flex justify-between p-16 h-[10rem] w-[102rem] bg-[#28a745] ">
+    <div className="flex justify-between p-9 h-[5rem] w-full bg-[#28a745] ">
       <div>
-        <img className=" h-[70px] w-[350px] " src={logoMobileImg} alt="2" />
+        <img className=" h-[1.5rem] w-[8rem] " src={logoMobileImg} alt="2" />
       </div>
       <div>
-        <img className="h-[5rem] w-[5rem] " src={hamburgerIconImg} alt="2" />
+        <img
+          className="h-[1.5rem] mr-7 w-[1.5rem] "
+          src={hamburgerIconImg}
+          alt="2"
+        />
       </div>
     </div>
   );

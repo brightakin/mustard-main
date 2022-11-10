@@ -22,13 +22,14 @@ import twitterIconImg from "../../Assets/twittericon.png";
 import youtubeIconImg from "../../Assets/youtubeicon.png";
 import instagramIconImg from "../../Assets/instagramicon.png";
 import facebookIconImg from "../../Assets/facebookicon.png";
+import card2Img from "../../Assets/card2.png";
 
 const HomePageDesktop = () => {
   return (
     <Fragment>
       <AppBar />
       <div className="flex flex-col ">
-        <div className="flex justify-between w-[100%] h-[1276px] bg-[#28a745] px-12 pb-[12.25rem] ">
+        <div className="flex justify-between w-full h-[1276px] bg-[#28a745] px-12 pb-[12.25rem] ">
           <div className="flex flex-col pt-[8rem] ">
             <h1 className="text-[#ffffff] h-[201px] w-[754px] text-[75px] text-left font-bold leading-[90px] ">
               Take Control of your money with Mustard!
@@ -101,7 +102,7 @@ const HomePageDesktop = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col w-[100%] h-[2590px] bg-white px-12 pt-[15rem] pb-[12.25rem]">
+        <div className="flex flex-col w-full h-[2590px] bg-white px-12 pt-[15rem] pb-[12.25rem]">
           <div className="flex">
             <div>
               <p className="h-[20rem] w-[30rem] text-6xl font-bold text-[#28a745] text-left ">
@@ -169,7 +170,11 @@ const HomePageDesktop = () => {
             </div>
           </div>
           <div className="flex">
-            <img className="mt-[10rem]" src={cardImg} alt="img" />
+            <img
+              className="mt-[10rem] h-[32rem] w-[39rem] "
+              src={card2Img}
+              alt="img"
+            />
             <div className="ml-[10rem] mt-[10rem] ">
               <p className="h-[20rem] w-[28rem] text-6xl font-bold text-[#28a745] text-left ">
                 Create Dollar Card for Internet transactions.
@@ -225,7 +230,7 @@ const HomePageDesktop = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-[100%] h-[80rem] bg-[#28a745] px-12 pt-[10rem] pb-[12.25rem] ">
+        <div className="flex flex-col w-full h-[80rem] bg-[#28a745] px-12 pt-[10rem] pb-[12.25rem] ">
           <div>
             <p className="h-[10rem] w-[60rem] text-white text-6xl ml-[22rem] font-bold text-right ">
               Send money to anyone, anywhere, anytime without any limitation.
@@ -242,7 +247,7 @@ const HomePageDesktop = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col w-[100%] h-[80rem] bg-white px-12 pt-[10rem] pb-[12.25rem] ">
+        <div className="flex flex-col w-full h-[80rem] bg-white px-12 pt-[10rem] pb-[12.25rem] ">
           <div>
             <p className="h-[10rem] w-[85rem] text-[#28a745] text-6xl font-extrabold text-center ">
               For every Mustard User, We provide you an Accountability Manager
@@ -277,7 +282,7 @@ const HomePageDesktop = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-[100%] h-[28rem] bg-[#f8f7fa] ">
+        <div className="flex flex-col w-full h-[28rem] bg-[#f8f7fa] ">
           <p className="h-[7rem] w-[30rem] text-6xl text-[#28a745] m-auto font-extrabold text-center ">
             Our Partners
           </p>
@@ -289,7 +294,7 @@ const HomePageDesktop = () => {
             <img className="h-[10rem] w-[12rem] " src={visaImg} alt="" />
           </div>
         </div>
-        <div className="flex flex-col w-[100%] h-[120rem] ">
+        <div className="flex flex-col w-full h-[120rem] ">
           <div className="flex h-[39rem] w-[70rem] rounded-3xl bg-[#28A74533] mx-auto mt-[10rem] ">
             <div>
               <p className="h-[10rem] w-[40rem] text-6xl font-bold text-left text-[#28A745] ml-[6rem] mt-[8rem] ">
