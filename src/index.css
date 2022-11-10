@@ -6,7 +6,8 @@
   html {
     font-family: Lato;
     overflow-x: hidden;
-    margin-left: 0;
+    padding-right: 0px;
+    margin-right: 0px;
   }
   input::placeholder {
     padding-left: 20px;
