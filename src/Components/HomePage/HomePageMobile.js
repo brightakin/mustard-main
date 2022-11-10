@@ -23,11 +23,11 @@ import card2Img from "../../Assets/card2.png";
 
 const HomePageMobile = () => {
   return (
-    <div className="w-full">
+    <div>
       <AppBar />
-      <div className="flex flex-col items-center w-full ">
+      <div className="flex flex-col items-center">
         <div className="flex flex-col justify-between w-full h-[85rem] bg-[#28a745] px-12 pb-[12.25rem] ">
-          <div className="flex flex-col pt-[6rem] ">
+          <div className="flex mx-auto flex-col pt-[6rem] ">
             <h1 className="text-[#ffffff] h-32 w-full text-5xl text-center font-extrabold">
               Take Control of your money with Mustard!
             </h1>
@@ -41,7 +41,7 @@ const HomePageMobile = () => {
             >
               Create an Account
             </button>
-            <div className="flex flex-col mt-[15rem] ml-[-2rem]">
+            <div className="flex flex-col mx-auto mt-[15rem]">
               <div className="mt-[5rem]">
                 <img
                   className="h-[9px] w-[50px] "
@@ -91,21 +91,21 @@ const HomePageMobile = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex justify-center ">
-            <img
-              className="absolute left-[4rem] top-[36rem]  h-[12rem] w-[16rem] mt-[12rem] "
-              src={cardImg}
-              alt="cards"
-            />
-            <img
-              className=" absolute left-[10rem] top-[46rem] h-[14rem] w-52 pt-0 "
-              src={phoneImg}
-              alt="phone"
-            />
+            <div className=" flex flex-col mx-auto">
+              <img
+                className="absolute mx-auto left-[4rem] top-[36rem]  h-[12rem] w-[16rem] mt-[12rem] "
+                src={cardImg}
+                alt="cards"
+              />
+              <img
+                className=" absolute left-[10rem] top-[46rem] h-[14rem] w-52 pt-0 "
+                src={phoneImg}
+                alt="phone"
+              />
+            </div>
           </div>
         </div>
-        <div className="flex flex-col w-full h-[158rem] bg-white px-12 pt-[15rem] pb-[12.25rem]">
+        <div className="flex flex-col h-[158rem] w-full bg-white pt-[15rem] pb-[12.25rem]">
           <div className="flex flex-col mx-auto">
             <div>
               <img
@@ -208,7 +208,7 @@ const HomePageMobile = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col mx-auto w-full h-[49rem] bg-[#28a745] pt-[3rem] pb-[6rem] ">
+        <div className="flex flex-col h-[49rem] w-full bg-[#28a745] pt-[3rem] pb-[6rem] ">
           <div>
             <img
               className="absolute h-64 w-[38rem]"
@@ -262,11 +262,11 @@ const HomePageMobile = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-full h-[24rem] bg-[#f8f7fa] ">
-          <p className="h-9 w-52 m-auto text-3xl text-[#28a745] font-extrabold text-center ">
+        <div className="flex flex-colw-full h-[24rem] pt-[1rem] pb-3 bg-[#f8f7fa]">
+          <p className="h-9 w-full m-auto text-3xl text-[#28a745] font-extrabold text-center ">
             Our Partners
           </p>
-          <div className="flex justify-evenly">
+          <div className="flex justify-evenly w-full ">
             <div>
               <img className="h-14 w-16 " src={visaImg} alt="" />
               <img className="h-14 w-16 " src={visaImg} alt="" />
@@ -277,7 +277,7 @@ const HomePageMobile = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col px-5 w-full">
+        <div className="flex flex-col  w-full">
           <div className="flex h-[29rem] mx-auto w-[21rem] rounded-3xl bg-[#28A74533] mt-[10rem] ">
             <div>
               <p className="h-32 w-80 text-3xl font-bold text-center text-[#28A745] mt-[2rem] ">
@@ -359,7 +359,6 @@ const HomePageMobile = () => {
               </div>
             </div>
           </div>
-
           <div className="flex justify-between mx-auto pt-32 ">
             <div>
               <p className="text-[#28a745] h-11 w-48 text-2xl font-bold text-left ">

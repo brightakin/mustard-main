@@ -29,12 +29,12 @@ const HomePageDesktop = () => {
     <Fragment>
       <AppBar />
       <div className="flex flex-col ">
-        <div className="flex justify-between w-full h-[1276px] bg-[#28a745] px-12 pb-[12.25rem] ">
-          <div className="flex flex-col pt-[8rem] ">
-            <h1 className="text-[#ffffff] h-[201px] w-[754px] text-[75px] text-left font-bold leading-[90px] ">
+        <div className="flex justify-between w-full h-[1100px] bg-[#28a745] px-12 pb-[12.25rem] ">
+          <div className="flex flex-col pt-[4rem] ">
+            <h1 className="text-[#ffffff] h-[180px] w-[754px] text-[75px] text-left font-bold leading-[90px] ">
               Take Control of your money with Mustard!
             </h1>
-            <p className="h-[78px] w-[685px] text-4xl font-bold text-left text-white ">
+            <p className="h-[78px] w-[685px] mt-8 text-3xl font-bold text-left text-white ">
               We’re here to help you get the best out of your money, no strings
               attached.
             </p>
@@ -44,8 +44,8 @@ const HomePageDesktop = () => {
             >
               Create an Account
             </button>
-            <div className="flex gap-[4rem]">
-              <div className="mt-[30rem]">
+            <div className="flex gap-[2rem]">
+              <div className="mt-[14rem]">
                 <img
                   className="h-[15px] w-[56px] "
                   src={rectangleImg}
@@ -55,7 +55,7 @@ const HomePageDesktop = () => {
                   Mustard Key figures
                 </p>
               </div>
-              <div className="mt-[31rem]">
+              <div className="mt-[15rem]">
                 <p className="h-[43px] w-[206px] text-2xl text-center text-[#ffffff] font-bold ">
                   Active accounts
                 </p>
@@ -63,7 +63,7 @@ const HomePageDesktop = () => {
                   10K+
                 </p>
               </div>
-              <div className="mt-[31rem]">
+              <div className="mt-[15rem]">
                 <p className="h-[43px] w-[206px] text-2xl text-center text-[#ffffff] font-bold ">
                   Total transactions
                 </p>
@@ -71,7 +71,7 @@ const HomePageDesktop = () => {
                   100K+
                 </p>
               </div>
-              <div className="mt-[31rem]">
+              <div className="mt-[15rem]">
                 <p className="h-[43px] w-[206px] text-2xl text-center text-[#ffffff] font-bold ">
                   Total payouts
                 </p>
@@ -79,7 +79,7 @@ const HomePageDesktop = () => {
                   500.3M
                 </p>
               </div>
-              <div className="mt-[31rem]">
+              <div className="mt-[15rem]">
                 <p className="h-[43px] w-[206px] text-2xl text-center text-[#ffffff] font-bold ">
                   Total Investment
                 </p>
@@ -91,12 +91,12 @@ const HomePageDesktop = () => {
           </div>
           <div className="flex justify-center ">
             <img
-              className="absolute right-[16rem] h-[342px] w-[432px] mt-[12rem] "
+              className="absolute right-[8rem] h-[342px] w-[432px] mt-[4rem] "
               src={cardImg}
               alt="cards"
             />
             <img
-              className=" absolute right-[4rem] h-[670px] w-[347px] pt-0 "
+              className=" absolute right-[4rem] h-[500px] w-[300px] pt-0 "
               src={phoneImg}
               alt="phone"
             />
@@ -123,21 +123,21 @@ const HomePageDesktop = () => {
             </div>
             <div>
               <img
-                className="absolute h-96 w-96 top-[105rem] left-[50rem] "
+                className="absolute h-96 w-96 top-[95rem] left-[42rem] "
                 src={bigCircleImg}
                 alt="bigCircle"
               />
               <img
-                className="absolute z-10 left-[66rem] top-[98rem] "
+                className="absolute z-10 left-[60rem] top-[90rem] "
                 src={phoneDashboardImg}
                 alt="phoneDashboard"
               />
               <img
-                className="absolute left-[75rem] top-[108rem] "
+                className="absolute w-48 h-48 left-[70rem] top-[100rem] "
                 src={smallCircleImg}
                 alt="smallCircle"
               />
-              <div className="absolute flex bg-white h-14 w-72 left-[46rem] top-[113rem] ">
+              <div className="absolute flex bg-white h-14 w-72 left-[46rem] top-[105rem] ">
                 <img className="w-10 h-9 " src={icon} alt="icon" />
                 <div>
                   {" "}
@@ -150,7 +150,7 @@ const HomePageDesktop = () => {
                   </p>
                 </div>
               </div>
-              <div className="absolute bg-white h-14 w-72 left-[46rem] top-[118rem] ">
+              <div className="absolute bg-white h-14 w-72 left-[46rem] top-[110rem] ">
                 <p className="text-[#28a745] h-1 w-24 text-xs ml-5 font-extrabold text-left ">
                   Bank Transfer
                 </p>
@@ -159,7 +159,7 @@ const HomePageDesktop = () => {
                   accounts.
                 </p>
               </div>
-              <div className="absolute bg-white h-14 w-72 left-[46rem] top-[123rem] ">
+              <div className="absolute bg-white h-14 w-72 left-[46rem] top-[115rem] ">
                 <p className="text-[#28a745] h-1 w-24 text-xs ml-5 font-extrabold text-left ">
                   Card
                 </p>
@@ -171,7 +171,7 @@ const HomePageDesktop = () => {
           </div>
           <div className="flex">
             <img
-              className="mt-[10rem] h-[32rem] w-[39rem] "
+              className="mt-[10rem] h-[30rem] w-[32rem] "
               src={card2Img}
               alt="img"
             />
@@ -213,24 +213,24 @@ const HomePageDesktop = () => {
             </div>
             <div>
               <img
-                className="absolute z-10 h-[38rem] w-[35rem] top-[192rem] left-[50rem] "
+                className="absolute z-10 h-[33rem] w-[30rem] top-[192rem] left-[50rem] "
                 src={joyfulImg}
                 alt="joyful"
               />
               <img
-                className="absolute h-[38rem] w-[35rem] top-[192rem] left-[50rem] "
+                className="absolute h-[33rem] w-[30rem] top-[192rem] left-[50rem] "
                 src={bigCircleImg}
                 alt="bigcircle"
               />
               <img
-                className="absolute w-72 h-48 left-[66rem] top-[185rem] "
+                className="absolute w-64 h-56 left-[66rem] top-[185rem] "
                 src={busesImg}
                 alt="buses"
               />
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-full h-[80rem] bg-[#28a745] px-12 pt-[10rem] pb-[12.25rem] ">
+        <div className="flex flex-col w-full h-[80rem] bg-[#28a745] px-2 pt-[10rem] pb-[12.25rem] ">
           <div>
             <p className="h-[10rem] w-[60rem] text-white text-6xl ml-[22rem] font-bold text-right ">
               Send money to anyone, anywhere, anytime without any limitation.
@@ -241,13 +241,13 @@ const HomePageDesktop = () => {
               they do cash pickup or send in-app through their Mustard tags.
             </p>
             <img
-              className="absolute top-[285rem] h-[34rem] w-[75rem]  "
+              className="absolute top-[270rem] h-[34rem] w-[75rem]  "
               src={worldImg}
               alt="world"
             />
           </div>
         </div>
-        <div className="flex flex-col w-full h-[80rem] bg-white px-12 pt-[10rem] pb-[12.25rem] ">
+        <div className="flex flex-col w-full h-[80rem] bg-white pt-[10rem] pb-[12.25rem] ">
           <div>
             <p className="h-[10rem] w-[85rem] text-[#28a745] text-6xl font-extrabold text-center ">
               For every Mustard User, We provide you an Accountability Manager
@@ -313,17 +313,17 @@ const HomePageDesktop = () => {
             </div>
             <div>
               <img
-                className="absolute right-[12rem] top-[450rem] z-10"
+                className="absolute right-[7rem] top-[439rem] z-10"
                 src={phoneTiltImg}
                 alt="phonetilt"
               />
               <img
-                className="absolute right-[26rem] top-[474rem]"
+                className="absolute right-[22rem] top-[462.59rem]"
                 src={deepYellowCircleImg}
                 alt="deepYellowCircle"
               />
               <img
-                className="absolute right-[12rem] top-[455rem]"
+                className="absolute right-[8rem] top-[450rem]"
                 src={smallCircleImg}
                 alt="smallcircle"
               />
