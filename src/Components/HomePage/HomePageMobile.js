@@ -20,8 +20,15 @@ import instagramIconImg from "../../Assets/instagramicon.png";
 import facebookIconImg from "../../Assets/facebookicon.png";
 import worldMobileImg from "../../Assets/worldmobile.png";
 import card2Img from "../../Assets/card2.png";
+import { useInView } from "react-intersection-observer";
 
 const HomePageMobile = () => {
+  const { ref: shadowSectionRef, inView: shadowSectionInView } = useInView();
+  const { ref: sendSectionRef, inView: sendSectionInView } = useInView();
+  const { ref: createSectionRef, inView: createSectionInView } = useInView();
+  const { ref: assetsSectionRef, inView: assetsSectionInView } = useInView();
+  const { ref: worldSectionRef, inView: worldSectionInView } = useInView();
+
   return (
     <div className=" pr-0 ">
       <AppBar />
@@ -31,7 +38,7 @@ const HomePageMobile = () => {
             <h1 className="text-[#ffffff] h-32 w-full text-5xl text-center font-extrabold">
               Take Control of your money with Mustard!
             </h1>
-            <p className="h-[5rem] w-full mt-[6rem] text-3xl font-medium text-center text-white ">
+            <p className="h-[5rem] w-full mt-[6rem] text-3xl font-medium text-center text-white">
               We’re here to help you get the best out of your money, no strings
               attached.
             </p>
@@ -154,7 +161,10 @@ const HomePageMobile = () => {
                 </p>
               </div>
             </div>
-            <div>
+            <div
+              ref={sendSectionRef}
+              className={`${sendSectionInView ? "animate-section-other" : ""}`}
+            >
               <p className="h-[12rem] w-[19rem] mx-auto mt-[10rem] text-4xl font-bold text-[#28a745] text-center ">
                 Save in Dollars & Spend Dollar easily, Anytime, Anywhere.
               </p>
@@ -167,15 +177,22 @@ const HomePageMobile = () => {
           </div>
           <div className="flex flex-col mx-auto ">
             <img className="h-72 w-80 mt-[10rem] " src={card2Img} alt="img" />
-            <div className="mt-[10rem] ">
-              <p className="h-[12rem] w-[17rem] text-4xl font-bold text-[#28a745] text-center ">
-                Create Dollar Card for Internet transactions.
-              </p>
-              <p className="h-[7rem] w-[19rem] mx-auto text-xl text-center text-[#3a3a3a] ">
-                Mustard uses the highest level of internet security and it is
-                protected by Comodo SSL certificate with end-to-end data
-                encryption to completely protect your data.
-              </p>
+            <div
+              ref={createSectionRef}
+              className={`${
+                createSectionInView ? "animate-section-other" : ""
+              }`}
+            >
+              <div className="mt-[8rem]">
+                <p className="h-[12rem] w-[17rem] text-4xl font-bold text-[#28a745] text-center ">
+                  Create Dollar Card for Internet transactions.
+                </p>
+                <p className="h-[7rem] w-[19rem] mx-auto text-xl text-center text-[#3a3a3a] ">
+                  Mustard uses the highest level of internet security and it is
+                  protected by Comodo SSL certificate with end-to-end data
+                  encryption to completely protect your data.
+                </p>
+              </div>
             </div>
           </div>
           <div className="flex flex-col mx-auto  mt-[12rem]">
@@ -196,15 +213,22 @@ const HomePageMobile = () => {
                 alt="buses"
               />
             </div>
-            <div className="mt-[20rem]">
-              <p className="w-[18rem] h-36 text-4xl font-bold text-[#28a745] text-center ">
-                You can make your money work when you In tangible Assets.
-              </p>
-              <p className="h-[7rem] w-[19rem] mt-8 mx-auto text-xl text-center text-[#3a3a3a] ">
-                Mustard uses the highest level of internet security and it is
-                protected by Comodo SSL certificate with end-to-end data
-                encryption to completely protect your data.
-              </p>
+            <div
+              ref={assetsSectionRef}
+              className={`${
+                assetsSectionInView ? "animate-section-other" : ""
+              }`}
+            >
+              <div className="mt-[20rem]">
+                <p className="w-[18rem] h-36 text-4xl font-bold text-[#28a745] text-center ">
+                  You can make your money work when you In tangible Assets.
+                </p>
+                <p className="h-[7rem] w-[19rem] mt-8 mx-auto text-xl text-center text-[#3a3a3a] ">
+                  Mustard uses the highest level of internet security and it is
+                  protected by Comodo SSL certificate with end-to-end data
+                  encryption to completely protect your data.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -231,7 +255,12 @@ const HomePageMobile = () => {
               For every Mustard User, We provide you an Accountability Manager
             </p>
             <div className="px-7 pt-11">
-              <div className=" flex h-[29rem] mx-auto w-80 text-[#3a3a3a] bg-white shadow-2xl ">
+              <div
+                ref={shadowSectionRef}
+                className={`flex h-[29rem] mx-auto w-80 text-[#3a3a3a] bg-white shadow-2xl ${
+                  shadowSectionInView ? "animate-section" : ""
+                }`}
+              >
                 <div className="flex">
                   <img
                     className="absolute h-32 w-32 "
@@ -279,7 +308,10 @@ const HomePageMobile = () => {
         </div>
         <div className="flex flex-col w-full">
           <div className="flex h-[29rem] mx-auto w-[21rem] rounded-3xl bg-[#28A74533] mt-[10rem] ">
-            <div>
+            <div
+              ref={worldSectionRef}
+              className={`${worldSectionInView ? "animate-section" : ""}`}
+            >
               <p className="h-32 w-80 text-3xl font-bold text-center text-[#28A745] mt-[2rem] ">
                 Take Control of your money with Mustard!
               </p>
