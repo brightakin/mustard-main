@@ -23,8 +23,14 @@ import youtubeIconImg from "../../Assets/youtubeicon.png";
 import instagramIconImg from "../../Assets/instagramicon.png";
 import facebookIconImg from "../../Assets/facebookicon.png";
 import card2Img from "../../Assets/card2.png";
+import { useInView } from "react-intersection-observer";
 
 const HomePageDesktop = () => {
+  const { ref: shadowSectionRef, inView: shadowSectionInView } = useInView();
+  const { ref: sendSectionRef, inView: sendSectionInView } = useInView();
+  const { ref: createSectionRef, inView: createSectionInView } = useInView();
+  const { ref: assetsSectionRef, inView: assetsSectionInView } = useInView();
+  const { ref: worldSectionRef, inView: worldSectionInView } = useInView();
   return (
     <Fragment>
       <AppBar />
@@ -252,8 +258,8 @@ const HomePageDesktop = () => {
             <p className="h-[10rem] w-[85rem] text-[#28a745] text-6xl font-extrabold text-center ">
               For every Mustard User, We provide you an Accountability Manager
             </p>
-            <div className=" flex h-[26rem] ml-11 w-[80rem] p-3 text-[#3a3a3a] bg-white shadow-2xl ">
-              <div className="flex">
+            <div className="flex h-[26rem] ml-11 w-[80rem] p-3 text-[#3a3a3a] bg-white shadow-2xl">
+              <div>
                 <img
                   className="absolute h-[11rem] w-[11rem] "
                   src={ladyleftImg}

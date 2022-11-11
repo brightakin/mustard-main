@@ -51,47 +51,47 @@ const HomePageMobile = () => {
             <div className="flex flex-col mx-auto mt-[15rem]">
               <div className="mt-[5rem]">
                 <img
-                  className="h-[9px] w-[50px] "
+                  className="h-[9px] w-[20px] "
                   src={rectangleImg}
                   alt="rectangle"
                 />
-                <p className="h-[64px] w-[320px] text-3xl mt-3 font-bold text-left text-[#ffffff] ">
+                <p className="h-[64px] w-[320px] text-2xl mt-3 font-bold text-left text-[#ffffff] ">
                   Mustard Key figures
                 </p>
               </div>
               <div className="flex ">
                 <div>
-                  <div className="mt-[5rem]">
-                    <p className="h-[43px] w-[180px] text-xl text-center text-[#ffffff] font-bold ">
+                  <div className="mt-[rem]">
+                    <p className="h-[43px] w-[180px] text-sm text-center text-[#ffffff] font-bold ">
                       Active accounts
                     </p>
-                    <p className="h-[55px] w-[142px] text-3xl text-center text-[#ffffff] font-bold ">
+                    <p className="h-[55px] w-[142px] text-xl text-center text-[#ffffff] font-bold ">
                       10K+
                     </p>
                   </div>
-                  <div className="mt-[5rem]">
-                    <p className="h-[43px] w-[180px] text-xl text-center text-[#ffffff] font-bold ">
+                  <div className="mt-[2rem]">
+                    <p className="h-[43px] w-[180px] text-sm text-center text-[#ffffff] font-bold ">
                       Total transactions
                     </p>
-                    <p className="h-[55px] w-[142px] text-3xl text-center text-[#ffffff] font-bold ">
+                    <p className="h-[55px] w-[142px] text-xl text-center text-[#ffffff] font-bold ">
                       100K+
                     </p>
                   </div>
                 </div>
                 <div>
-                  <div className="mt-[5rem]">
-                    <p className="h-[43px] w-[180px] text-xl text-center text-[#ffffff] font-bold ">
+                  <div>
+                    <p className="h-[43px] w-[180px] text-sm text-center text-[#ffffff] font-bold ">
                       Total payouts
                     </p>
-                    <p className="h-[55px] w-[142px] text-3xl text-center text-[#ffffff] font-bold ">
+                    <p className="h-[55px] w-[142px] text-xl text-center text-[#ffffff] font-bold ">
                       500.3M
                     </p>
                   </div>
-                  <div className="mt-[5rem]">
-                    <p className="h-[43px] w-[180px] text-xl text-center text-[#ffffff] font-bold ">
+                  <div className="mt-[2rem]">
+                    <p className="h-[43px] w-[180px] text-sm text-center text-[#ffffff] font-bold ">
                       Total Investment
                     </p>
-                    <p className="h-[55px] w-[142px] text-3xl text-center text-[#ffffff] font-bold ">
+                    <p className="h-[55px] w-[142px] text-xl text-center text-[#ffffff] font-bold ">
                       10.3K+
                     </p>
                   </div>
@@ -184,7 +184,7 @@ const HomePageMobile = () => {
               }`}
             >
               <div className="mt-[8rem]">
-                <p className="h-[12rem] w-[17rem] text-4xl font-bold text-[#28a745] text-center ">
+                <p className="h-[12rem] mx-auto w-[17rem] text-4xl font-bold text-[#28a745] text-center ">
                   Create Dollar Card for Internet transactions.
                 </p>
                 <p className="h-[7rem] w-[19rem] mx-auto text-xl text-center text-[#3a3a3a] ">
@@ -239,10 +239,10 @@ const HomePageMobile = () => {
               src={worldMobileImg}
               alt="world"
             />
-            <p className="h-[9rem] w-[23rem] mt-[20rem] text-white text-4xl mx-auto font-bold text-center ">
+            <p className="h-[9rem] w-[22rem] mt-[21rem] text-white text-3xl mx-auto font-bold text-center ">
               Send money to anyone, anywhere, anytime without any limitation.
             </p>
-            <p className="text-white mx-auto mt-8 px-4 w-96 h-28 text-2xl font-normal text-center ">
+            <p className="text-white mx-auto mt-2 px-4 w-80 h-28 text-xl font-normal text-center ">
               You can easily send money to Domiliciary accounts and local banks
               without stress. You can easily send money to your loved ones and
               they do cash pickup or send in-app through their Mustard tags.
@@ -324,7 +324,7 @@ const HomePageMobile = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-[4rem] mx-auto ">
+          <div className="flex flex-col px-5 gap-[4rem] mx-auto ">
             <div className="mt-[8rem] mr-5">
               <img className="h-6 w-36 " src={footerLogoImg} alt="footerlogo" />
             </div>
@@ -391,7 +391,7 @@ const HomePageMobile = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-between mx-auto pt-32 ">
+          <div className="flex flex-col pl-5 justify-between pt-32 ">
             <div>
               <p className="text-[#28a745] h-11 w-48 text-2xl font-bold text-left ">
                 Contact
@@ -402,13 +402,17 @@ const HomePageMobile = () => {
               >
                 help@mustard.ng
               </a>
-              <div className="flex gap-3 mt-6 ">
-                <img src={twitterIconImg} alt="twittericon" />
-                <img src={instagramIconImg} alt="instagramIcon" />
-                <img src={facebookIconImg} alt="facebookIcon" />
-                <img src={linkedlnIconImg} alt="linkedlnicon" />
-                <img src={youtubeIconImg} alt="youtubeicon" />
-              </div>
+            </div>
+            <div className="flex gap-3 mt-6 ">
+              <img className="6 h-6" src={twitterIconImg} alt="twittericon" />
+              <img
+                className="6 h-6"
+                src={instagramIconImg}
+                alt="instagramIcon"
+              />
+              <img className="6 h-6" src={facebookIconImg} alt="facebookIcon" />
+              <img className="6 h-6" src={linkedlnIconImg} alt="linkedlnicon" />
+              <img className="6 h-6" src={youtubeIconImg} alt="youtubeicon" />
             </div>
           </div>
         </div>
