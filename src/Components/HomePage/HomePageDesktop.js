@@ -23,7 +23,6 @@ import youtubeIconImg from "../../Assets/youtubeicon.png";
 import instagramIconImg from "../../Assets/instagramicon.png";
 import facebookIconImg from "../../Assets/facebookicon.png";
 import card2Img from "../../Assets/card2.png";
-import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 
 const HomePageDesktop = () => {

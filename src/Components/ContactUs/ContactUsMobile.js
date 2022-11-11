@@ -1,6 +1,5 @@
 import AppBar from "../AppBar";
 import footerLogoImg from "../../Assets/footerlogo.png";
-import storeIconsImg from "../../Assets/storeicons.png";
 import linkedlnIconImg from "../../Assets/linkedlnicon.png";
 import twitterIconImg from "../../Assets/twittericon.png";
 import youtubeIconImg from "../../Assets/youtubeicon.png";
