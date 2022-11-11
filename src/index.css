@@ -98,7 +98,7 @@
 
   @keyframes scroll-in-other {
     0% {
-      transform: translate(0px, 100px);
+      transform: translate(0px, 84px);
     }
 
     100% {
