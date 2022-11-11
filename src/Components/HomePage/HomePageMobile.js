@@ -233,7 +233,7 @@ const HomePageMobile = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col h-[49rem] w-full bg-[#28a745] pt-[3rem] pb-[6rem] ">
+        <div className="flex flex-col mt-[8rem] h-[49rem] w-full bg-[#28a745] pt-[3rem] pb-[6rem] ">
           <div>
             <img
               className="absolute h-64 w-[38rem]"
