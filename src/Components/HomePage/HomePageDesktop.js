@@ -24,6 +24,7 @@ import instagramIconImg from "../../Assets/instagramicon.png";
 import facebookIconImg from "../../Assets/facebookicon.png";
 import card2Img from "../../Assets/card2.png";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
 
 const HomePageDesktop = () => {
   // const { ref: shadowSectionRef, inView: shadowSectionInView } = useInView();
@@ -380,9 +381,9 @@ const HomePageDesktop = () => {
               </p>
               <p className="h-10 w-40 text-2xl text-left text-[#3a3a3a] font-bold ">
                 FAQs
-              </p>
-              <p className="h-10 w-40 text-2xl text-left text-[#3a3a3a] font-bold ">
-                FAQs
+              </p>{" "}
+              <p className="h-10 w-40 text-sm text-left text-[#3a3a3a] font-bold ">
+                <Link to="/contactus">Contact us</Link>
               </p>
             </div>
             <div className="mt-[31rem]">

@@ -21,6 +21,7 @@ import facebookIconImg from "../../Assets/facebookicon.png";
 import worldMobileImg from "../../Assets/worldmobile.png";
 import card2Img from "../../Assets/card2.png";
 import { useInView } from "react-intersection-observer";
+import { Link } from "react-router-dom";
 
 const HomePageMobile = () => {
   const { ref: shadowSectionRef, inView: shadowSectionInView } = useInView();
@@ -371,7 +372,7 @@ const HomePageMobile = () => {
                     FAQs
                   </p>
                   <p className="h-10 w-40 text-sm text-left text-[#3a3a3a] font-bold ">
-                    FAQs
+                    <Link to="/contactus">Contact us</Link>
                   </p>
                 </div>
                 <div className="mt-[5rem]">

@@ -8,6 +8,7 @@ import SignInPage from "./Components/SignIn";
 import ResetPasswordPage from "./Components/ResetPassword";
 import AppBar from "./Components/AppBar";
 import HomePage from "./Components/HomePage";
+import ContactUs from "./Components/ContactUs";
 
 function App() {
   useEffect(() => {
@@ -37,6 +38,9 @@ function App() {
         </Route>
         <Route path="/appbar">
           <AppBar />
+        </Route>
+        <Route path="/contactus">
+          <ContactUs />
         </Route>
       </Switch>
     </Fragment>
