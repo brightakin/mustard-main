@@ -13,14 +13,14 @@ const ContactUsMobile = () => {
       <AppBar />
       <div className="h-[89rem]">
         <section>
-          <p className="text-[#28a745] mx-auto mt-10 text-center font-extrabold text-4xl w-72 h-11 ">
+          <p className="text-[#28a745]  mx-auto mt-10 text-center font-extrabold text-4xl w-72 h-11 ">
             Contact Us
           </p>
-          <p className="w-[22rem] mx-auto text-center mt-8 text-2xl text-[#3a3a3a] ">
+          <p className="w-[22rem] px-4 mx-auto text-center mt-8 text-2xl text-[#3a3a3a] ">
             Do you need help? We are available on every of our channels for
             immediate answer.
           </p>
-          <p className="w-[23rem] mx-auto text-center mt-8 text-2xl text-[#3a3a3a] ">
+          <p className="w-[23rem] px-4 mx-auto text-center mt-8 text-2xl text-[#3a3a3a] ">
             Everything about us is available on our website but is there any
             other way you need help,
           </p>
