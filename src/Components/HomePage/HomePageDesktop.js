@@ -26,11 +26,11 @@ import card2Img from "../../Assets/card2.png";
 import { useInView } from "react-intersection-observer";
 
 const HomePageDesktop = () => {
-  const { ref: shadowSectionRef, inView: shadowSectionInView } = useInView();
-  const { ref: sendSectionRef, inView: sendSectionInView } = useInView();
-  const { ref: createSectionRef, inView: createSectionInView } = useInView();
-  const { ref: assetsSectionRef, inView: assetsSectionInView } = useInView();
-  const { ref: worldSectionRef, inView: worldSectionInView } = useInView();
+  // const { ref: shadowSectionRef, inView: shadowSectionInView } = useInView();
+  // const { ref: sendSectionRef, inView: sendSectionInView } = useInView();
+  // const { ref: createSectionRef, inView: createSectionInView } = useInView();
+  // const { ref: assetsSectionRef, inView: assetsSectionInView } = useInView();
+  // const { ref: worldSectionRef, inView: worldSectionInView } = useInView();
   return (
     <Fragment>
       <AppBar />
