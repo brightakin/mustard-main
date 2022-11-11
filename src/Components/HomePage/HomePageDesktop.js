@@ -381,7 +381,7 @@ const HomePageDesktop = () => {
               <p className="h-10 w-40 text-2xl text-left text-[#3a3a3a] font-bold ">
                 FAQs
               </p>{" "}
-              <p className="h-10 w-40 text-sm text-left text-[#3a3a3a] font-bold ">
+              <p className="h-10 w-40 text-2xl text-left text-[#3a3a3a] font-bold ">
                 <Link to="/contactus">Contact us</Link>
               </p>
             </div>

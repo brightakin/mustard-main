@@ -166,7 +166,7 @@ const HomePageMobile = () => {
               ref={sendSectionRef}
               className={`${sendSectionInView ? "animate-section-other" : ""}`}
             >
-              <p className="h-[12rem] w-[19rem] mx-auto mt-[10rem] text-4xl font-bold text-[#28a745] text-center ">
+              <p className="h-[12rem] w-[19rem] mx-auto mt-[18rem] text-4xl font-bold text-[#28a745] text-center ">
                 Save in Dollars & Spend Dollar easily, Anytime, Anywhere.
               </p>
               <p className="h-[7rem] w-[19rem] mx-auto text-xl text-center text-[#3a3a3a] ">
