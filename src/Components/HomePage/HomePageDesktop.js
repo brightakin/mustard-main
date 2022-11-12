@@ -31,6 +31,7 @@ const HomePageDesktop = () => {
   // const { ref: createSectionRef, inView: createSectionInView } = useInView();
   // const { ref: assetsSectionRef, inView: assetsSectionInView } = useInView();
   // const { ref: worldSectionRef, inView: worldSectionInView } = useInView();
+
   return (
     <Fragment>
       <AppBar />

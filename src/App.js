@@ -9,6 +9,7 @@ import ResetPasswordPage from "./Components/ResetPassword";
 import AppBar from "./Components/AppBar";
 import HomePage from "./Components/HomePage";
 import ContactUs from "./Components/ContactUs";
+import ScrollToTop from "./Components/Helper/ScrollToTop";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <Fragment>
+      <ScrollToTop />
       <Switch>
         <Route path="/" exact>
           <HomePage />
